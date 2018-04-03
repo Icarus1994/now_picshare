@@ -4,7 +4,7 @@
 # 甚至是一个字符串或者json字符串，此时会在网页上看到返回的字符串
 #可以从目录中导入变量
 
-from nowstagram import app,db,alisdk
+from nowstagram import app, db, alisdk
 from nowstagram.models import User,Image,Comment
 from flask import render_template,redirect,request,flash,get_flashed_messages,send_from_directory
 import random,hashlib
